@@ -19,4 +19,7 @@ func main() {
 	// Tipe data string
 	fmt.Println("Kata = ", "Hello")
 	fmt.Println("Kata = ", "Hello, Oky Wahyu Setyaji")
+
+	fmt.Println(len("Oky"))             // fungsi untuk mengetahui panjang string
+	fmt.Println("Oky Wahyu Setyaji"[0]) // fungsi untuk mengetahui karakter pada string berdasarkan index dalam bentuk byte
 }
