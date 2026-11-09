@@ -10,4 +10,12 @@ func main() {
 	fmt.Println(nilai32)
 	fmt.Println(nilai64)
 	fmt.Println(nilai16)
+
+	var name = "Oky Wahyu Setyaji"
+	var e byte = name[0]
+	var eString string = string(e)
+
+	fmt.Println(name)
+	fmt.Println(e)
+	fmt.Println(eString)
 }
