@@ -22,4 +22,10 @@ func main() {
 
 	fmt.Println(len("Oky"))             // fungsi untuk mengetahui panjang string
 	fmt.Println("Oky Wahyu Setyaji"[0]) // fungsi untuk mengetahui karakter pada string berdasarkan index dalam bentuk byte
+
+	var nama string   // deklarasi variabelnya saja dan tipe datanya
+	var umur int = 20 // deklarasi variabel beserta tipe data dan nilai awal
+	nama = "Oky Wahyu Setyaji"
+	fmt.Println(nama)
+	fmt.Println(umur)
 }
