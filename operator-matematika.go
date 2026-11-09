@@ -10,4 +10,15 @@ func main() {
 	var e int = a * b
 	var f int = b / a
 	fmt.Println(a, b, c, d, e, f)
+
+	var i int
+	i = 10
+	i++
+	i++
+	fmt.Println(i)
+	i--
+	fmt.Println(i)
+	i += 5
+	fmt.Println(i)
+
 }
