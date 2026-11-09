@@ -26,6 +26,9 @@ func main() {
 	var nama string   // deklarasi variabelnya saja dan tipe datanya
 	var umur int = 20 // deklarasi variabel beserta tipe data dan nilai awal
 	nama = "Oky Wahyu Setyaji"
+	username := "okyws" // deklarasi variabel secara singkat
+
 	fmt.Println(nama)
 	fmt.Println(umur)
+	fmt.Println(username)
 }
